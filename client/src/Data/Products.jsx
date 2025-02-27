@@ -15,6 +15,11 @@ const Products=[
         image:"https://wizmartbd.com/public/storage/files/product/Cosplay/Clothings/HP%20Scarf%201+2/HP%20Scarf-2%20(1).jpg",
         desc:"Gryffindor Muffler",
         price:"Tk. 1500/-"
+    },
+    {
+        image:"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTv_njm75xO9pM4c2ls5J_EOz_TZLqMRRiBVg&s",
+        desc:"Pokemon Prismatic Evolution Booster Pack",
+        price:"Tk. 300/-"
     }
     
 ]

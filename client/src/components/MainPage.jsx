@@ -7,9 +7,10 @@ const MainPage = () => {
     return (
         <>
             <div className="MainPage">
-                <div>
-                    <img src="./left.png" className="arrow" />
 
+                <i style={{color:"white", position:"absolute", marginTop:"140px", fontSize:"40px", marginLeft:"280px"}}>Serving Anime, Movies, Figurines and Cards for 10 years!</i>
+                    <img src="./left.png" className="arrow" />
+                   
                     <div className="ProductBoxContainer">
                         {Products.map((p, key) => {
                             return (
@@ -20,7 +21,11 @@ const MainPage = () => {
 
                         })}
                     </div>
-                </div>
+
+
+                
+
+                <img src="./right.png" className="arroe" />
             </div>
         </>
     )
