@@ -68,7 +68,7 @@ body,
   align-items: center;
   align-content: center;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   font-style: italic;
 }
 
@@ -81,4 +81,66 @@ body,
   background-size: cover; /* Ensures the image covers the entire page */
   background-position: center; /* Centers the image */
   height: 100vh; /* Ensures the background takes the full height of the viewport */
+}
+
+.ProductBox{
+  width: 200px;
+  height: auto;
+  margin-top: 260px;
+  margin-left: 200px;
+  background-color: white;
+  position: absolute;
+  color: white;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  padding: 0;
+}
+
+.ProductBox img{
+  width: 120%;
+  justify-content: center;
+  align-items: center;
+  object-fit: cover;
+  align-content: center;
+  margin: 0px; /* Ensure no margin */
+  padding: 0px;
+}
+
+.ProductDetails{
+  width: 200px;
+  height: 100px;
+  margin-top: 520px;
+  margin-left: 200px;
+  background: linear-gradient(90deg, #E17995 0%, #BB46A5 80%);
+  position: absolute;
+  color: white;
+  border-radius: 30px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.ProductDetails p{
+  margin-left: 26px;
+}
+
+.arrow{
+  height: 100px; 
+  margin-top:300px;
+  position: absolute;
+  margin-left: 30px;
+  z-index: 4;
+}
+
+.arrow img:hover{
+  cursor: pointer;
+}
+
+.ProductBoxContainer {
+  display: flex; /* Allows items to wrap to the next line */
+  justify-content: flex-start; /* Aligns items to the left */
+  gap: 300px; /* Adds space between items */
+  position: absolute;
 }
