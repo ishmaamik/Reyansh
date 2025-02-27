@@ -52,3 +52,19 @@ body,
 .tools div:hover{
   cursor: pointer;
 }
+
+.footer{
+  background-color: #3F164A;
+  width: 100vw;
+  height: 9.8vh;
+  position: absolute;
+  display: flex;
+  margin-top:700px;
+  overflow-y: hidden;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+}
