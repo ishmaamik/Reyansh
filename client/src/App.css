@@ -6,6 +6,7 @@ body,
   height: 100%;
 }
 
+
 .App{
   width: 100%;
   position: relative;
@@ -16,20 +17,21 @@ body,
 .sidebar{
   background-color: #3F164A;
   width: 100vw;
-  height: 15vh;
+  height: 12.5vh;
   position: absolute;
   display: flex;
 }
 
 .reyansh{
   font-family:sans-serif;
-  background: linear-gradient(90deg, #E17995 0%, #BB46A5 5%);
-  font-variant: initial;
+  background: linear-gradient(90deg, #E17995 0%, #BB46A5 80%);
   -webkit-background-clip: text;
   color: transparent;
   font-size: 45px;
-  padding-top: 7px;
+  display: flex;
   padding-left: 40px;
+  height: auto;
+  position: absolute;
 }
 
 .tools{
@@ -55,11 +57,12 @@ body,
 
 .footer{
   background-color: #3F164A;
+  z-index: 3;
   width: 100vw;
   height: 9.8vh;
   position: absolute;
+  margin-top: 700px;
   display: flex;
-  margin-top:700px;
   overflow-y: hidden;
   justify-content: center;
   align-items: center;
@@ -67,4 +70,15 @@ body,
   color: white;
   font-size: 25px;
   font-style: italic;
+}
+
+.MainPage {
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  background-image: url('./genshin.jpg'); /* Set the image as a background */
+  background-size: cover; /* Ensures the image covers the entire page */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Ensures the background takes the full height of the viewport */
 }

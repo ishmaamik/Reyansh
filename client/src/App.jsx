@@ -2,6 +2,7 @@ import { useState } from 'react'
 import Sidebar from './components/Sidebar'
 import "./index.css"
 import Footer from './components/Footer'
+import MainPage from './components/MainPage'
 function App() {
   
 
@@ -9,6 +10,7 @@ function App() {
     <>
     <div className='App'>
       <Sidebar/>
+      <MainPage/>
       <Footer/>
       </div>
     </>
